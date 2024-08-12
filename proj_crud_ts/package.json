@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "name": "proj_crud_ts",
+  "version": "1.0.0",
+  "description": "Projeto Crud",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leuquary/xx_projeto_AMS_II.git"
+  },
+  "keywords": [
+    "Projeto",
+    "Genérico",
+    "Crud"
+  ],
+  "author": "Raquel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leuquary/xx_projeto_AMS_II/issues"
+  },
+  "homepage": "https://github.com/Leuquary/xx_projeto_AMS_II#readme"
+}
