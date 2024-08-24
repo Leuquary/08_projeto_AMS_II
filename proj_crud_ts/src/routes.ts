@@ -32,13 +32,13 @@ router.post('/item', (req, res) => {
 // Rota GET para inserir dados no banco de dados
 // http://localhost:3000/insere?name=Renato&description=programador
 router.get('/insere', (req, res) => {
-  const { name, description } = req.query;
+  const { nome, descricao } = req.query;
 
-  if (!name || !description) {
+  if (!nome || !descricao) {
     return res.status(400).send('Name and description are required');
   }
 
-  connection.query('INSERT INTO db_items (name, description) VALUES (?, ?)', [name, description], (err, result) => {
+  connection.query('INSERT INTO ts_crud (default, nome, descricao) VALUES (?, ?)', [nome, descricao], (err, result) => {
     if (err) {
       res.status(500).send(err);
     } else {
