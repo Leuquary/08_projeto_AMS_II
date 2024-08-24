@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^22.5.0",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "proj_crud_ts": "file:",
+    "save-dev": "^0.0.1-security",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
@@ -7,23 +14,22 @@
   "version": "1.0.0",
   "description": "Projeto Crud",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leuquary/xx_projeto_AMS_II.git"
+    "url": "git+https://github.com/Leuquary/08_projeto_AMS_II.git"
   },
   "keywords": [
     "Projeto",
     "Genérico",
-    "Crud"
+    "CRUD"
   ],
   "author": "Raquel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Leuquary/xx_projeto_AMS_II/issues"
+    "url": "https://github.com/Leuquary/08_projeto_AMS_II/issues"
   },
-  "homepage": "https://github.com/Leuquary/xx_projeto_AMS_II#readme"
+  "homepage": "https://github.com/Leuquary/08_projeto_AMS_II#readme"
 }
